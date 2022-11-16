@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, #fc63a7, #dd1264);
+  height: 100vh;
+}
+.black-heading {
+  color: black;
+  font-family: Bree Serif;
+}
+.white-heading {
+  color: white;
+}
+.description {
+  color: #ffffff;
+  font-family: Bree Serif;
+}
+.firstname-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: space-between;
+
+  height: 140px;
+  width: 250px;
+}
+.firstname {
+  background-color: white;
+  padding: 50px;
+}
+
+.dark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  height: 100vh;
+}
+.names-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
